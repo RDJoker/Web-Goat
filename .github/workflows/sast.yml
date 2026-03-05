@@ -6,10 +6,12 @@ on:
       - main
   pull_request:
 
-jobs:
-  call-reusable:
-    uses: RDJoker/Security-Pipeline/.github/workflows/sast.yml@main
-    permissions:
+permissions:
       actions: read
       contents: read
       security-events: write
+
+jobs:
+  call-reusable:
+    uses: RDJoker/Security-Pipeline/.github/workflows/sast.yml@main
+    
