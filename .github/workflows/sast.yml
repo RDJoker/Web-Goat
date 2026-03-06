@@ -14,5 +14,5 @@ permissions:
 jobs:
   call-reusable:
     uses: RDJoker/Security-Pipeline/.github/workflows/sast.yml@main
-    if: always()
+    continue-on-error: true
     
