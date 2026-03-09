@@ -13,6 +13,4 @@ permissions:
 
 jobs:
   call-reusable:
-    uses: RDJoker/Security-Pipeline/.github/workflows/sast.yml@main 
-    
-    
+    uses: RDJoker/Security-Pipeline/.github/workflows/sast.yml@main
